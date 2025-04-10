@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Open Sans", sans-serif ;
+    background-color: rgba(0, 0, 0, 0.911);
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    width: 1000px;
+    margin: 10dvh auto 5dvh auto;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1.8fr 3fr;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.763);
+    overflow: hidden;
+    border-radius: 24px;
+    border: 2px solid rgb(231, 209, 229);
+}
+
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    gap: 30px;
+    padding: 40px 20px 0 20px;
+}
+
+.left h1{
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.left img{
+    display: inline-block;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 197, 152);
+}
+
+.header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 4fr 1fr;
+    padding: 0px 0  10px 20px;
+}
+
+.right h1{
+    font-size: 1.8rem;
+    padding-top: 15px;
+}
+
+.img-div{
+    background-color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+}
+
+.img-div img{
+    display: inline-block;
+    margin: 0 auto;
+    height: 30px;
+    width: 70px;
+}
+
+.right-content{
+    padding: 20px;
+}
+
+.right-content p{
+    font-weight: 700;
+    line-height: 1.5;
+    word-spacing: 2px;
+    font-size: 1.6rem;
+}
+
+.Objective{
+    margin-bottom: 24px;
+}
+
+ol{
+   padding: 5px 20px 20px 30px; 
+}
+
+ol li{
+    line-height: 1.5;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+}
+
+
+.credits{
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .main{
+        grid-template-columns: 1.5fr 2fr;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+

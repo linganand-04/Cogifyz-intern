@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.error-show{
+  transform: translateY(0);
+  /* display: block; */
+}
+
+.error-close{
+  transform: translateY(-200%);
+}
+
+.error{
+  position: fixed;
+  text-align: center;
+  margin: 0 auto;
+  width: 250px;
+  left: 40dvw;
+  top: 0;
+  padding: 5px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.553);
+  transition: all 600ms ease;
+  cursor:auto;
+}
+
+.success{
+  background-color:#66b366 ;
+}
+
+.failed{
+  background-color: #ff4d4d;
+}
+
+.invalid{
+  background-color: #591919;
+}
+
+.login {
+  gap: 12px;
+  width: 500px;
+  margin: 15dvh auto;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.500);
+  background-image: url('https://images.unsplash.com/photo-1654737178110-977669b9bcdc?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center;
+  background-size: cover;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 48px;
+
+}
+
+.inner-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 20px;
+  margin-bottom: 24px;
+}
+
+.inner-form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 5px;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+input {
+  width: 200px;
+  outline: none;
+  border-radius: 7px;
+  padding: 5px;
+  border: 2px solid rgba(255, 250, 250, 0.185);
+  background: transparent;
+  color: snow;
+}
+
+input:focus{
+    color: white;
+    border: 2px dashed rgb(172, 222, 235);
+}
+
+label {
+  margin-right: 30px;
+}
+
+#btn-box {
+  display: flex;
+  margin: 0 auto;
+}
+
+button {
+  margin: 0 auto;
+  border: none;
+  background-color: aquamarine;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: background-color 750ms ease;
+  margin-bottom: 12px;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+

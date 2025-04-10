@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Styling and Validation</title>
+  <link rel="icon" href="img/Icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="error error-close" id="error">
+  </div>
+  
+  <form action="/"  id="form">
+    <div class="login">
+      <h3>Login Form</h3>
+      <div class="inner-form">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text">
+        </div>
+        <div>
+          <label  for="email">Email</label>
+          <input  id="email" type="email">
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="password">
+        </div>
+      </div>
+        <div id="btn-box">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+    </div>
+  </form>
+  
+  <script src="script.js"></script>
+   
+</body>
+</html>

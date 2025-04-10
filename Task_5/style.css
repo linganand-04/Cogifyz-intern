@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Open Sans", sans-serif ;
+}
+
+
+div{
+    margin: 50px auto;
+    
+}
+
+.text{
+    text-align: center;
+}
+
+.jokes-section{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.jokes{
+    text-align: center;
+}
+
+.setup{
+    margin-bottom: 5px;
+}
